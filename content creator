@@ -1,0 +1,88 @@
+import { Project, Experience, SkillCategory, ServiceItem, Testimonial } from '../types';
+
+export const PERSONAL_INFO = {
+  name: 'Saba Hameed',
+  title: 'AI Product Designer & Content Creator',
+  subtitle: '4+ Years Crafting Multi-Modal AI Products, Generative UI & Visual Brand Content',
+  bio: 'Specializing in converting complex AI workflows into fluid, human-centric interfaces, high-converting video product ads, and generative UI component systems.',
+  email: 'sabahameednoor@gmail.com',
+  phone: '+92 300 0000000',
+  location: 'Remote / Global',
+  social: {
+    linkedin: 'https://linkedin.com',
+    github: 'https://github.com/sabahameednoor-source',
+    behance: 'https://behance.net',
+    instagram: 'https://instagram.com'
+  },
+  stats: [
+    { label: 'Years Experience', value: '4+' },
+    { label: 'AI Projects Shipped', value: '35+' },
+    { label: 'Client Satisfaction', value: '99%' },
+    { label: 'Content Reach', value: '1M+' }
+  ],
+  avatar: '/src/assets/images/saba_podcast_cover_1784659368801.jpg'
+};
+
+export const PROJECTS: Project[] = [
+  {
+    id: 'high-impact-workout-plan',
+    title: 'High-Impact Workout Plan App — Vibe Coded Suite',
+    subtitle: 'Interactive fitness routine platform built with AI Vibe Coding',
+    description: 'A dynamic, high-impact workout plan design web application created using AI Vibe Coding methodologies. Features customized exercise routines, visual progress trackers, and fluid responsive layouts.',
+    category: 'AI Product Design',
+    image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1200&auto=format&fit=crop',
+    tags: ['Vibe Coding', 'AI Product Design', 'Interactive App', 'Generative UI', 'Fitness UX'],
+    featured: true,
+    liveUrl: 'https://sabahameednoor-source.github.io/high-Impact-Workout-Plan-Design/',
+    completionYear: '2026',
+    client: 'Vibe Coding Showcase',
+    duration: '1 Week',
+    keyFeatures: [
+      'Built entirely using AI Vibe Coding rapid generation methodologies',
+      'Interactive workout schedule, calorie targets & intensity breakdown',
+      'Dynamic exercise routine cards with visual muscle group indicators',
+      'Mobile-first responsive design deployed directly to GitHub Pages'
+    ],
+    architecture: [
+      'Creation Method: AI Vibe Coding Prompt Orchestration',
+      'Frontend Stack: HTML5, Modern CSS Grid/Flexbox, JavaScript',
+      'Deployment: GitHub Pages automated CI/CD pipeline'
+    ],
+    metrics: [
+      { label: 'Vibe Code Velocity', value: 'Instant' },
+      { label: 'User Rating', value: '5.0/5' },
+      { label: 'Deployment', value: 'Live' }
+    ]
+  },
+  {
+    id: 'omni-ai-design-system',
+    title: 'OmniAI Design Suite - AI Generative UI & Content Suite',
+    subtitle: 'Multi-modal tokens, prompt patterns & adaptive component framework',
+    description: 'A comprehensive AI-driven product interface and content creation workbench built for next-generation applications. Features adaptive UI components, real-time prompt engineering presets, and multi-modal canvas layouts.',
+    category: 'AI Product Design',
+    image: '/src/assets/images/project_ai_workspace_1784657232067.jpg',
+    tags: ['AI Product Design', 'Generative UI', 'Prompt Engineering', 'Gemini API', 'AI Workflows'],
+    featured: true,
+    liveUrl: 'https://omniai-design.demo',
+    completionYear: '2026',
+    client: 'OmniAI Labs',
+    duration: '3 Months',
+    keyFeatures: [
+      'Multi-modal prompt UI pattern library with 40+ pre-designed AI interface states',
+      'Adaptive component architecture for streaming text, voice, and generated imagery',
+      'Comprehensive tokens for light and dark luxury editorial themes',
+      'Drag-and-drop prompt node graph interface for content workflow automation',
+      'Accessible WCAG AA compliant layout and contrast patterns'
+    ],
+    architecture: [
+      'AI System: Component Tokens, Variables, & Micro-Interaction Patterns',
+      'Frontend: React 19 SPA with Motion animation framework',
+      'AI Integration: Server-proxied Gemini API for live multi-modal content previews'
+    ],
+    metrics: [
+      { label: 'System Adoption', value: '100%' },
+      { label: 'User Efficiency Gain', value: '+45%' },
+      { label: 'Satisfaction Score', value: '4.9/5' }
+    ]
+  }
+];
